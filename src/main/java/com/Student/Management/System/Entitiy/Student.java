@@ -23,4 +23,8 @@ public class Student {
     @Column(name="email",nullable = false,length = 50, unique = true)
     private String email;
 
+    public void setId(Long id) {
+    }
+
+
 }
